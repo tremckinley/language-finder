@@ -1,31 +1,70 @@
 [
   {
     "discovery_counts": {
-      "candidate_language_paths": 0,
+      "candidate_language_paths": 1,
       "fetch_errors": 0,
-      "hreflang_targets": 0,
-      "pages": 1,
-      "sitemaps": 2,
+      "hreflang_targets": 3,
+      "pages": 100,
+      "sitemaps": 11,
       "subdomains": 1,
-      "urls": 1
+      "urls": 579
     },
-    "domain": "example.org",
+    "domain": "stayingconnectedinitiative.org",
     "findings": [
       {
-        "code": "en",
-        "confidence": 60,
-        "name": "English",
+        "code": "fr",
+        "confidence": 18885,
+        "name": "French",
         "sample_urls": [
-          "https://example.org/"
+          "https://stayingconnectedinitiative.org/",
+          "https://stayingconnectedinitiative.org/2016/02/winter-newsletter-2016/",
+          "https://stayingconnectedinitiative.org/2016/05/spring-newsletter-2016/",
+          "https://stayingconnectedinitiative.org/2016/08/late-summer-newsletter-2016/",
+          "https://stayingconnectedinitiative.org/2016/12/fall-newsletter-2016/"
         ],
         "sources": [
-          "html_lang"
+          "hreflang",
+          "text_heuristic",
+          "url_pattern"
+        ]
+      },
+      {
+        "code": "en",
+        "confidence": 9725,
+        "name": "English",
+        "sample_urls": [
+          "https://stayingconnectedinitiative.org/",
+          "https://stayingconnectedinitiative.org/2016/02/winter-newsletter-2016/",
+          "https://stayingconnectedinitiative.org/2016/05/spring-newsletter-2016/",
+          "https://stayingconnectedinitiative.org/2016/08/late-summer-newsletter-2016/",
+          "https://stayingconnectedinitiative.org/2016/12/fall-newsletter-2016/"
+        ],
+        "sources": [
+          "hreflang",
+          "text_heuristic"
+        ]
+      },
+      {
+        "code": "es",
+        "confidence": 1125,
+        "name": "Spanish",
+        "sample_urls": [
+          "https://stayingconnectedinitiative.org/fr/2016/02/winter-newsletter-2016-anglais/",
+          "https://stayingconnectedinitiative.org/fr/2016/05/spring-newsletter-2016-anglais/",
+          "https://stayingconnectedinitiative.org/fr/2016/08/bulletin-dete-2016-anglais/",
+          "https://stayingconnectedinitiative.org/fr/2016/12/bulletin-dautomne-2016-anglais/",
+          "https://stayingconnectedinitiative.org/fr/2017/03/winter-newsletter-2017-anglais/"
+        ],
+        "sources": [
+          "text_heuristic"
         ]
       }
     ],
-    "language_count": 1,
+    "language_count": 3,
     "languages": [
-      "English"
+      "French",
+      "English",
+      "Spanish"
     ]
   }
 ]

@@ -1,5 +1,5 @@
 from __future__ import annotations
-import argparse, asyncio, json
+import argparse, asyncio, json, sys
 from pathlib import Path
 
 from discovery.crawler import DomainDiscoverer
@@ -14,10 +14,19 @@ async def analyze_domain(domain: str) -> tuple:
 async def analyze_domains(domains: list[str]) -> tuple[list, list]:
     discoveries = []
     reports = []
-    for domain in domains:
-        discovery, report = await analyze_domain(domain)
+    total = len(domains)
+    print(f"Starting analysis for {total} domain(s)...", file=sys.stderr)
+    for index, domain in enumerate(domains, start=1):
+        print(f"Starting analysis for domain {index}/{total}: {domain}", file=sys.stderr)
+        try:
+            discovery, report = await analyze_domain(domain)
+        except Exception as exc:
+            print(f"Failed to analyze domain {domain}: {exc}", file=sys.stderr)
+            continue
         discoveries.append(discovery)
         reports.append(report)
+        print(f"Completed analysis for domain {domain}", file=sys.stderr)
+    print(f"Finished analysis for {len(reports)}/{total} domain(s)", file=sys.stderr)
     return discoveries, reports
 
 def read_domains(args) -> list[str]:
