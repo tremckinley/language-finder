@@ -1,0 +1,31 @@
+[
+  {
+    "discovery_counts": {
+      "candidate_language_paths": 0,
+      "fetch_errors": 0,
+      "hreflang_targets": 0,
+      "pages": 1,
+      "sitemaps": 2,
+      "subdomains": 1,
+      "urls": 1
+    },
+    "domain": "example.org",
+    "findings": [
+      {
+        "code": "en",
+        "confidence": 60,
+        "name": "English",
+        "sample_urls": [
+          "https://example.org/"
+        ],
+        "sources": [
+          "html_lang"
+        ]
+      }
+    ],
+    "language_count": 1,
+    "languages": [
+      "English"
+    ]
+  }
+]

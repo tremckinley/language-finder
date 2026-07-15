@@ -1,0 +1,2 @@
+domain,language_count,languages,details
+example.org,1,English,"[{""code"": ""en"", ""confidence"": 60, ""name"": ""English"", ""sample_urls"": [""https://example.org/""], ""sources"": [""html_lang""]}]"

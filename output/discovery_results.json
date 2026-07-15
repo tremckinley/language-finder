@@ -1,0 +1,41 @@
+[
+  {
+    "candidate_language_paths": [],
+    "counts": {
+      "candidate_language_paths": 0,
+      "fetch_errors": 0,
+      "hreflang_targets": 0,
+      "pages": 1,
+      "sitemaps": 2,
+      "subdomains": 1,
+      "urls": 1
+    },
+    "discovered_urls": [
+      "https://example.org/"
+    ],
+    "domain": "example.org",
+    "fetch_errors": [],
+    "hreflang_targets": [],
+    "normalized_start_url": "https://example.org/",
+    "pages": [
+      {
+        "error": null,
+        "final_url": "https://example.org/",
+        "hreflang_targets": [],
+        "html_lang": "en",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://example.org/",
+        "visible_text_length": 142
+      }
+    ],
+    "registered_domain": "example.org",
+    "sitemap_urls": [
+      "https://example.org/sitemap.xml",
+      "https://example.org/sitemap_index.xml"
+    ],
+    "subdomains": [
+      "example.org"
+    ]
+  }
+]
