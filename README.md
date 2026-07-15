@@ -1,42 +1,23 @@
-# Language Discovery Engine - Phase 2 Complete Build
+# Language Discovery Patched App
 
-A deterministic Python engine for discovering whether a domain ecosystem publishes pages in multiple languages.
+Deterministic multilingual domain discovery with patched confidence behavior.
 
-## Current Capabilities
+## Patch behavior
 
-- Normalizes root domains and URLs
-- Treats subdomains as part of the registered-domain ecosystem
-- Reads `robots.txt` sitemap declarations
-- Parses standard sitemaps and sitemap indexes recursively
-- Crawls a bounded number of HTML pages
-- Extracts `hreflang`, `<html lang>`, internal links, and visible text
-- Aggregates likely published languages using deterministic confidence scoring
-- Exports JSON and CSV reports
+- Text heuristics can no longer create new language findings.
+- Trusted evidence creates languages: `hreflang`, `<html lang>`, `/fr/` style URL paths, and language subdomains.
+- Text detection is supplemental only.
+- Conflicting text signals are warnings.
+- Confidence is displayed as a percentage plus High/Medium/Low label.
 
-## Run
+## Codespaces run
 
 ```bash
-pip install -r requirements.txt
+uvicorn app.api:app --host 0.0.0.0 --port 8000 --reload
+```
+
+## CLI run
+
+```bash
 python main.py --domain example.org --output-dir output
 ```
-
-Batch input:
-
-```bash
-python main.py --input domains.csv --output-dir output
-```
-
-## Primary Output
-
-`output/language_reports.csv`
-
-Columns:
-
-- domain
-- language_count
-- languages
-- details
-
-## Notes
-
-This build is deterministic and does not use an LLM for language detection. Text detection is intentionally conservative and supplemental; high-confidence signals are `hreflang`, `<html lang>`, and URL/subdomain patterns.
