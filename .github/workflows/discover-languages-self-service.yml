@@ -82,14 +82,18 @@ jobs:
           echo "Domains queued for analysis:"
           cat "$RUNTIME_CSV"
 
-      - name: Run language discovery
+      - name: Run language discovery with per-domain debug output
         run: |
-          python main.py --input "${{ env.RUNTIME_INPUT_DIR }}/domains.csv" --output-dir "${{ env.OUTPUT_DIR }}"
+          python main.py \
+            --input "${{ env.RUNTIME_INPUT_DIR }}/domains.csv" \
+            --output-dir "${{ env.OUTPUT_DIR }}" \
+            --debug
 
-      - name: Build portfolio summary table
+      - name: Build primary summary.csv
         run: |
           python tools/build_summary.py \
-            --language-report "${{ env.OUTPUT_DIR }}/language_reports.csv" \
+            --language-report-json "${{ env.OUTPUT_DIR }}/language_reports.json" \
+            --language-report-csv "${{ env.OUTPUT_DIR }}/language_reports.csv" \
             --summary-output "${{ env.OUTPUT_DIR }}/summary.csv" \
             --markdown-output "${{ env.OUTPUT_DIR }}/summary.md"
 
@@ -104,14 +108,11 @@ jobs:
         run: |
           echo "# Language Discovery Results" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Primary deliverable: summary.csv" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
           if [ -f "${{ env.OUTPUT_DIR }}/summary.md" ]; then
             cat "${{ env.OUTPUT_DIR }}/summary.md" >> "$GITHUB_STEP_SUMMARY"
           fi
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "## CSV preview" >> "$GITHUB_STEP_SUMMARY"
-          echo '```csv' >> "$GITHUB_STEP_SUMMARY"
-          head -n 20 "${{ env.OUTPUT_DIR }}/language_reports.csv" >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload result package
         uses: actions/upload-artifact@v4
