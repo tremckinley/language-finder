@@ -1,0 +1,8 @@
+# Replace the existing "Run language discovery" step with this version
+# so GitHub Actions writes per-domain debug files.
+- name: Run language discovery with per-domain debug output
+  run: |
+    python main.py \
+      --input "${{ env.RUNTIME_INPUT_DIR }}/domains.csv" \
+      --output-dir "${{ env.OUTPUT_DIR }}" \
+      --debug

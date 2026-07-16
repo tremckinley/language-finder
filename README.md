@@ -1,23 +1,27 @@
-# Language Discovery Patched App
+# Language Discovery Batch Isolation Patch
 
-Deterministic multilingual domain discovery with patched confidence behavior.
+This patch makes multi-domain processing auditable and isolated so every domain is analyzed as if it were running alone.
 
-## Patch behavior
+## Replace in your repository
 
-- Text heuristics can no longer create new language findings.
-- Trusted evidence creates languages: `hreflang`, `<html lang>`, `/fr/` style URL paths, and language subdomains.
-- Text detection is supplemental only.
-- Conflicting text signals are warnings.
-- Confidence is displayed as a percentage plus High/Medium/Low label.
-
-## Codespaces run
-
-```bash
-uvicorn app.api:app --host 0.0.0.0 --port 8000 --reload
+```text
+main.py
 ```
 
-## CLI run
+## Recommended GitHub Actions edit
 
-```bash
-python main.py --domain example.org --output-dir output
+Add `--debug` to the workflow step that runs `main.py`.
+
+## New debug files
+
+```text
+output/debug/<domain>.discovery.json
+output/debug/<domain>.language_debug.json
+output/debug/batch_manifest.json
+```
+
+## Tests included
+
+```text
+tests/test_batch_isolation.py
 ```
