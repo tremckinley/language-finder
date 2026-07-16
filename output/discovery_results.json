@@ -1,6 +1,1630 @@
 [
   {
     "candidate_language_paths": [
+      "/en/",
+      "/es/",
+      "/fr/",
+      "/pt/"
+    ],
+    "counts": {
+      "candidate_language_paths": 4,
+      "fetch_errors": 0,
+      "hreflang_targets": 4,
+      "pages": 51,
+      "sitemaps": 7,
+      "subdomains": 2,
+      "urls": 67
+    },
+    "discovered_urls": [
+      "https://freshwaterfisheries.org/",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/English_TNC_2023-Inland-Fisheries-Guide.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/French_TNC_2023-Inland-Fisheries-Guide.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Freshwater_Fisheries_Fact_Sheet_final.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapeamento-de-\u00e1reas-de-manejo-e-monitoramento-na-Amaz\u00f4nia-PORT.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapping-fisheries-management-and-monitoring-in-the-Amazon_ENGLISH.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Portuguese_TNC_2023-Inland-Fisheries-Guide.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Spanish_TNC_2023-Inland-Fisheries-Guide.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/TNC-Practitioners-Guide_FRENCH.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/TNC-Practitioners-Guide_MASTER.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/TNC-Pratitioners-Guide_PORTUGUESE.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/a/f/Africa_YIR_2025_Web.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_ENGLISH.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_FRENCH.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_PORTUGUESE.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_SPANISH.pdf",
+      "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/TNC-Practitioners-Guide_Spanish.pdf",
+      "https://www.freshwaterfisheries.org/en/",
+      "https://www.freshwaterfisheries.org/en/about-us/",
+      "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+      "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+      "https://www.freshwaterfisheries.org/en/resource-hub/",
+      "https://www.freshwaterfisheries.org/en/stories/",
+      "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+      "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+      "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+      "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+      "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+      "https://www.freshwaterfisheries.org/en/where-we-work/",
+      "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+      "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+      "https://www.freshwaterfisheries.org/es/",
+      "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+      "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+      "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+      "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+      "https://www.freshwaterfisheries.org/es/historias/",
+      "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+      "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+      "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+      "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+      "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+      "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+      "https://www.freshwaterfisheries.org/fr/",
+      "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+      "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+      "https://www.freshwaterfisheries.org/fr/histoires/",
+      "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+      "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+      "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+      "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+      "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+      "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+      "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+      "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+      "https://www.freshwaterfisheries.org/pt/",
+      "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+      "https://www.freshwaterfisheries.org/pt/historias/",
+      "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/",
+      "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/",
+      "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/",
+      "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/",
+      "https://www.freshwaterfisheries.org/pt/historias/zambia/",
+      "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+      "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+      "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+      "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+    ],
+    "domain": "https://freshwaterfisheries.org",
+    "fetch_errors": [],
+    "hreflang_targets": [
+      "en-us",
+      "es",
+      "fr",
+      "pt-br"
+    ],
+    "normalized_start_url": "https://freshwaterfisheries.org/",
+    "pages": [
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/English_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Freshwater_Fisheries_Fact_Sheet_final.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/TNC-Practitioners-Guide_MASTER.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+          "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+          "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+          "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+          "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/pt/"
+        ],
+        "status_code": 200,
+        "url": "https://freshwaterfisheries.org/",
+        "visible_text_length": 6079
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/English_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Freshwater_Fisheries_Fact_Sheet_final.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/TNC-Practitioners-Guide_MASTER.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+          "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+          "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+          "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+          "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/pt/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/",
+        "visible_text_length": 6079
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/about-us/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/about-us/",
+        "visible_text_length": 11120
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/English_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+        "visible_text_length": 29232
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+        "hreflang_targets": [],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/pt/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+        "visible_text_length": 2599
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/resource-hub/",
+        "hreflang_targets": [],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/pt/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/resource-hub/",
+        "visible_text_length": 1407
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/stories/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/pt/historias/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/stories/",
+        "visible_text_length": 12401
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapeamento-de-\u00e1reas-de-manejo-e-monitoramento-na-Amaz\u00f4nia-PORT.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapping-fisheries-management-and-monitoring-in-the-Amazon_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+          "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+          "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+        "visible_text_length": 4836
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/English_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+          "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+          "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+        "visible_text_length": 3751
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_FRENCH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_PORTUGUESE.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_SPANISH.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+          "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+          "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+        "visible_text_length": 3326
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+          "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+          "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+        "visible_text_length": 3773
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+          "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+          "https://www.freshwaterfisheries.org/pt/historias/zambia/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+        "visible_text_length": 6244
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/where-we-work/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/where-we-work/",
+        "visible_text_length": 3117
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/a/f/Africa_YIR_2025_Web.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+        "visible_text_length": 29714
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "en-US",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+        "visible_text_length": 31176
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Freshwater_Fisheries_Fact_Sheet_final.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Spanish_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/TNC-Practitioners-Guide_Spanish.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+          "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+          "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+          "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+          "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/pt/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/",
+        "visible_text_length": 7136
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+        "visible_text_length": 3580
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/a/f/Africa_YIR_2025_Web.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+        "visible_text_length": 33219
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+        "visible_text_length": 34403
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Spanish_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+        "visible_text_length": 34124
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/historias/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/pt/historias/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/historias/",
+        "visible_text_length": 12796
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+          "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+        "visible_text_length": 4717
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Spanish_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+          "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+        "visible_text_length": 4231
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapeamento-de-\u00e1reas-de-manejo-e-monitoramento-na-Amaz\u00f4nia-PORT.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapping-fisheries-management-and-monitoring-in-the-Amazon_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+          "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+        "visible_text_length": 5477
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_FRENCH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_PORTUGUESE.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_SPANISH.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+          "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+        "visible_text_length": 3815
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+          "https://www.freshwaterfisheries.org/pt/historias/zambia/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+        "visible_text_length": 7016
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "es",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+        "visible_text_length": 13397
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/French_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Freshwater_Fisheries_Fact_Sheet_final.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/TNC-Practitioners-Guide_FRENCH.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+          "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+          "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+          "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+          "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/",
+        "visible_text_length": 7260
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+        "visible_text_length": 14620
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/French_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+        "visible_text_length": 35818
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/histoires/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/historias/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/histoires/",
+        "visible_text_length": 13080
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_FRENCH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_PORTUGUESE.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_SPANISH.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+          "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+        "visible_text_length": 4090
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+          "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+        "visible_text_length": 4851
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/French_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+          "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+        "visible_text_length": 4368
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapeamento-de-\u00e1reas-de-manejo-e-monitoramento-na-Amaz\u00f4nia-PORT.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapping-fisheries-management-and-monitoring-in-the-Amazon_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+          "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+        "visible_text_length": 5823
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+          "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/historias/zambia/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+        "visible_text_length": 7397
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+        "visible_text_length": 3677
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/a/f/Africa_YIR_2025_Web.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+        "visible_text_length": 34352
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "fr",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+        "visible_text_length": 36678
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/",
+        "hreflang_targets": [
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Freshwater_Fisheries_Fact_Sheet_final.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Portuguese_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/TNC-Pratitioners-Guide_PORTUGUESE.pdf",
+          "https://www.freshwaterfisheries.org/en/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/",
+          "https://www.freshwaterfisheries.org/fr/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/",
+          "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/",
+          "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/",
+          "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/",
+          "https://www.freshwaterfisheries.org/pt/historias/zambia/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/",
+        "visible_text_length": 6693
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Portuguese_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/fr/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+        "visible_text_length": 32497
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/historias/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/",
+          "https://www.freshwaterfisheries.org/es/historias/",
+          "https://www.freshwaterfisheries.org/fr/histoires/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/historias/",
+        "visible_text_length": 12619
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/minimata-convention-on-mercury-biodiversity-roadmap/",
+          "https://www.freshwaterfisheries.org/es/historias/convenio-de-minamata-sobre-el-mercurio/",
+          "https://www.freshwaterfisheries.org/fr/histoires/convention-de-minamata-sur-le-mercure/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/historias/convencao-de-minamata/",
+        "visible_text_length": 4360
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Portuguese_TNC_2023-Inland-Fisheries-Guide.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/community-led-management-lower-amazon/",
+          "https://www.freshwaterfisheries.org/es/historias/gestion-comunitaria-en-la-amazonia-inferior/",
+          "https://www.freshwaterfisheries.org/fr/histoires/gestion-communautaire-des-peches-deau-douce-dans-le-bas-amazonie/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/historias/gestao-comunitaria-da-pesca-continental-no-baixo-amazonas/",
+        "visible_text_length": 3987
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapeamento-de-\u00e1reas-de-manejo-e-monitoramento-na-Amaz\u00f4nia-PORT.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/conservation/cg-documents/freshwater-fisheries-assets/Mapping-fisheries-management-and-monitoring-in-the-Amazon_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/amazon-fisheries-mapping-management-and-monitoring-initiatives/",
+          "https://www.freshwaterfisheries.org/es/historias/pesquerias-de-la-amazonia/",
+          "https://www.freshwaterfisheries.org/fr/histoires/peche-en-amazonie-cartographie/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/historias/pesca-na-amazonia-mapeamento/",
+        "visible_text_length": 5065
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_ENGLISH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_FRENCH.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_PORTUGUESE.pdf",
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/freshwater-fisheries/2025-FWF-Workshop-Summary-Report_SPANISH.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/freshwater-fisheries-brazil-workshop/",
+          "https://www.freshwaterfisheries.org/es/historias/taller-sobre-pesca-de-agua-dulce-en-brasil/",
+          "https://www.freshwaterfisheries.org/fr/histoires/atelier-sur-la-peche-en-eau-douce-au-bresil/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/historias/workshop-sobre-pesca-continental-no-brasil/",
+        "visible_text_length": 3693
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/historias/zambia/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/stories/zambia-fisheries/",
+          "https://www.freshwaterfisheries.org/es/historias/zambia-pesquerias-de-agua-dulce/",
+          "https://www.freshwaterfisheries.org/fr/histoires/zambie/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/historias/zambia/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/historias/zambia/",
+        "visible_text_length": 6733
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+        "visible_text_length": 3320
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/content/dam/tnc/nature/en/documents/a/f/Africa_YIR_2025_Web.pdf",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/africa/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/africa/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/afrique/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+        "visible_text_length": 32081
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/en/where-we-work/latin-america/",
+          "https://www.freshwaterfisheries.org/es/donde-trabajamos/america-latina/",
+          "https://www.freshwaterfisheries.org/fr/ou-nous-travaillons/amerique-latine/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+        "visible_text_length": 32678
+      },
+      {
+        "error": null,
+        "final_url": "https://www.freshwaterfisheries.org/pt/sobre-nos/",
+        "hreflang_targets": [
+          "en-us",
+          "es",
+          "fr",
+          "pt-br"
+        ],
+        "html_lang": "pt-BR",
+        "internal_links": [
+          "https://www.freshwaterfisheries.org/en/about-us/",
+          "https://www.freshwaterfisheries.org/en/notice-for-infringement-claims/",
+          "https://www.freshwaterfisheries.org/en/resource-hub/",
+          "https://www.freshwaterfisheries.org/es/sobre-nosotros/",
+          "https://www.freshwaterfisheries.org/fr/a-propos-de-nous/",
+          "https://www.freshwaterfisheries.org/pt/",
+          "https://www.freshwaterfisheries.org/pt/guide-resources-by-phase/",
+          "https://www.freshwaterfisheries.org/pt/historias/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/africa/",
+          "https://www.freshwaterfisheries.org/pt/onde-trabalhamos/america-latina/",
+          "https://www.freshwaterfisheries.org/pt/sobre-nos/"
+        ],
+        "status_code": 200,
+        "url": "https://www.freshwaterfisheries.org/pt/sobre-nos/",
+        "visible_text_length": 12945
+      }
+    ],
+    "registered_domain": "freshwaterfisheries.org",
+    "sitemap_urls": [
+      "https://freshwaterfisheries.org/sitemap.xml",
+      "https://freshwaterfisheries.org/sitemap_index.xml",
+      "https://www.freshwaterfisheries.org/en/sitemap.xml",
+      "https://www.freshwaterfisheries.org/es/sitemap.xml",
+      "https://www.freshwaterfisheries.org/fr/sitemap.xml",
+      "https://www.freshwaterfisheries.org/pt/sitemap.xml",
+      "https://www.freshwaterfisheries.org/sitemap-index.xml"
+    ],
+    "subdomains": [
+      "freshwaterfisheries.org",
+      "www.freshwaterfisheries.org"
+    ]
+  },
+  {
+    "candidate_language_paths": [
       "/fr/"
     ],
     "counts": {
@@ -2961,6 +4585,906 @@
     ],
     "subdomains": [
       "stayingconnectedinitiative.org"
+    ]
+  },
+  {
+    "candidate_language_paths": [],
+    "counts": {
+      "candidate_language_paths": 0,
+      "fetch_errors": 0,
+      "hreflang_targets": 0,
+      "pages": 52,
+      "sitemaps": 2,
+      "subdomains": 1,
+      "urls": 52
+    },
+    "discovered_urls": [
+      "https://east-river-collaborative.tnc.org/",
+      "https://east-river-collaborative.tnc.org/datasets",
+      "https://east-river-collaborative.tnc.org/datasets/east-river-collaborative",
+      "https://east-river-collaborative.tnc.org/datasets/east-river-watershed-resilience-framework-2022",
+      "https://east-river-collaborative.tnc.org/datasets/economic-assessment-of-green-infrastructure-strategies-for-climate-change-adaptation-pilot-studies-in-great-lakes-region",
+      "https://east-river-collaborative.tnc.org/datasets/erc-2026-winter-forum-draft-agenda",
+      "https://east-river-collaborative.tnc.org/datasets/guide-to-assessing-green-infrastructure-costs-and-benefits-for-flood-reduction",
+      "https://east-river-collaborative.tnc.org/datasets/nine-key-element-plan-baird-creek-watershed-2022",
+      "https://east-river-collaborative.tnc.org/datasets/resident-perspectives-on-east-river-flooding-",
+      "https://east-river-collaborative.tnc.org/datasets/upper-east-river-habitat-conservation-plan",
+      "https://east-river-collaborative.tnc.org/datasets/usace-east-river-floodplain-managment-services-study",
+      "https://east-river-collaborative.tnc.org/items/0aebfe7110cd4e22a7bd9637b1ebe97b",
+      "https://east-river-collaborative.tnc.org/items/111f3b99b2144c358ad403e711320af1",
+      "https://east-river-collaborative.tnc.org/items/4dcceb0e15f64e22850a44788dd96a68",
+      "https://east-river-collaborative.tnc.org/items/91cef1c71e424a3c9ce6a3f1fc1560db",
+      "https://east-river-collaborative.tnc.org/items/b23f9bd08c2448229832871a16484698",
+      "https://east-river-collaborative.tnc.org/items/b9cc993d94644680adfdb7fff791a684",
+      "https://east-river-collaborative.tnc.org/items/e31b489991af4afb9372daaaee7b2163",
+      "https://east-river-collaborative.tnc.org/items/e4e7d0c0323b42aab9f3a89b24ecec2b",
+      "https://east-river-collaborative.tnc.org/items/f82e96213e8a4afc938b69dd8e88c3bf",
+      "https://east-river-collaborative.tnc.org/pages/1d5b53ba1e114629984bd13c41e9f327",
+      "https://east-river-collaborative.tnc.org/pages/2026-survey~97cf092cc598467fb7541a3bdd82e872",
+      "https://east-river-collaborative.tnc.org/pages/852237097be647b2bec9d0a7df5c8c00",
+      "https://east-river-collaborative.tnc.org/pages/about-4",
+      "https://east-river-collaborative.tnc.org/pages/about-the-east-river-watershed~98541c298fa24de980ec557abd2988ec",
+      "https://east-river-collaborative.tnc.org/pages/about-us",
+      "https://east-river-collaborative.tnc.org/pages/about-us-1",
+      "https://east-river-collaborative.tnc.org/pages/about-us~1c57504db1b341129be959e7e87afad8",
+      "https://east-river-collaborative.tnc.org/pages/blog",
+      "https://east-river-collaborative.tnc.org/pages/brad-lange-retires-after-decades-of-service-and-dedication",
+      "https://east-river-collaborative.tnc.org/pages/brown-county-interactive-map~3c5683870717486081bac07d2ab9dce8",
+      "https://east-river-collaborative.tnc.org/pages/connect-with-us~2d04d8fb31f44b88b0179ca4b92d59ef",
+      "https://east-river-collaborative.tnc.org/pages/contact-us",
+      "https://east-river-collaborative.tnc.org/pages/e48d8697bea24e2bb6f5de4bebd697eb",
+      "https://east-river-collaborative.tnc.org/pages/east-river-related-plans-studies-and-reports~437acd624a694520b93c7784d3cea92c",
+      "https://east-river-collaborative.tnc.org/pages/erc-plans-reports~8e5b1f9147c04b5d8ab99d67b9a87dbb",
+      "https://east-river-collaborative.tnc.org/pages/events~7713283e1e2b42ef9df283b9a01e5af5",
+      "https://east-river-collaborative.tnc.org/pages/flood-study-maps~854c6300043243eb8626d8cfd1401770",
+      "https://east-river-collaborative.tnc.org/pages/flood-vulnerability-index~fd01ed67e28d438a8fff84a636eab938",
+      "https://east-river-collaborative.tnc.org/pages/flooding-faq",
+      "https://east-river-collaborative.tnc.org/pages/hagenow-coastal-resilience-specialist",
+      "https://east-river-collaborative.tnc.org/pages/interactive-map~8def9b4423c64910a7f67c2de6a1c9cb",
+      "https://east-river-collaborative.tnc.org/pages/kari-hagenow-takes-on-new-role~f934c4f443874306b21cb4822b3c8a59",
+      "https://east-river-collaborative.tnc.org/pages/maps-data",
+      "https://east-river-collaborative.tnc.org/pages/meet-melissa-schmitz~ebca297a926249f2ac02e7fe48272d4a",
+      "https://east-river-collaborative.tnc.org/pages/meetings-events",
+      "https://east-river-collaborative.tnc.org/pages/nature-based-solutions-resources~ca055818cc034c608abbbdaf2ff4a92a",
+      "https://east-river-collaborative.tnc.org/pages/news-and-stories~157a3df1d14a4838a2694ca53f1da4bb",
+      "https://east-river-collaborative.tnc.org/pages/newsletter-archives",
+      "https://east-river-collaborative.tnc.org/pages/newsletter-archives~024dc7d9cfb146df8aac8c6d683651ca",
+      "https://east-river-collaborative.tnc.org/pages/policy-resources~742df10ab8c54d2fbf138cfe2e18a5e6",
+      "https://east-river-collaborative.tnc.org/pages/resources"
+    ],
+    "domain": "east-river-collaborative.tnc.org",
+    "fetch_errors": [],
+    "hreflang_targets": [],
+    "normalized_start_url": "https://east-river-collaborative.tnc.org/",
+    "pages": [
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/east-river-collaborative",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/east-river-collaborative",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/east-river-watershed-resilience-framework-2022",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/east-river-watershed-resilience-framework-2022",
+        "visible_text_length": 46
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/economic-assessment-of-green-infrastructure-strategies-for-climate-change-adaptation-pilot-studies-in-great-lakes-region",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/economic-assessment-of-green-infrastructure-strategies-for-climate-change-adaptation-pilot-studies-in-great-lakes-region",
+        "visible_text_length": 121
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/erc-2026-winter-forum-draft-agenda",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/erc-2026-winter-forum-draft-agenda",
+        "visible_text_length": 34
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/guide-to-assessing-green-infrastructure-costs-and-benefits-for-flood-reduction",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/guide-to-assessing-green-infrastructure-costs-and-benefits-for-flood-reduction",
+        "visible_text_length": 78
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/nine-key-element-plan-baird-creek-watershed-2022",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/nine-key-element-plan-baird-creek-watershed-2022",
+        "visible_text_length": 50
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/resident-perspectives-on-east-river-flooding-",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/resident-perspectives-on-east-river-flooding-",
+        "visible_text_length": 44
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/upper-east-river-habitat-conservation-plan",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/upper-east-river-habitat-conservation-plan",
+        "visible_text_length": 42
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/datasets/usace-east-river-floodplain-managment-services-study",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/datasets/usace-east-river-floodplain-managment-services-study",
+        "visible_text_length": 52
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/0aebfe7110cd4e22a7bd9637b1ebe97b",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/0aebfe7110cd4e22a7bd9637b1ebe97b",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/111f3b99b2144c358ad403e711320af1",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/111f3b99b2144c358ad403e711320af1",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/4dcceb0e15f64e22850a44788dd96a68",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/4dcceb0e15f64e22850a44788dd96a68",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/91cef1c71e424a3c9ce6a3f1fc1560db",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/91cef1c71e424a3c9ce6a3f1fc1560db",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/b23f9bd08c2448229832871a16484698",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/b23f9bd08c2448229832871a16484698",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/b9cc993d94644680adfdb7fff791a684",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/b9cc993d94644680adfdb7fff791a684",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/e31b489991af4afb9372daaaee7b2163",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/e31b489991af4afb9372daaaee7b2163",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/e4e7d0c0323b42aab9f3a89b24ecec2b",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/e4e7d0c0323b42aab9f3a89b24ecec2b",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/items/f82e96213e8a4afc938b69dd8e88c3bf",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/items/f82e96213e8a4afc938b69dd8e88c3bf",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/1d5b53ba1e114629984bd13c41e9f327",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/1d5b53ba1e114629984bd13c41e9f327",
+        "visible_text_length": 9
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/2026-survey~97cf092cc598467fb7541a3bdd82e872",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/2026-survey~97cf092cc598467fb7541a3bdd82e872",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/852237097be647b2bec9d0a7df5c8c00",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/852237097be647b2bec9d0a7df5c8c00",
+        "visible_text_length": 12
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/about-4",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/about-4",
+        "visible_text_length": 30
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/about-the-east-river-watershed~98541c298fa24de980ec557abd2988ec",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/about-the-east-river-watershed~98541c298fa24de980ec557abd2988ec",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/about-us",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/about-us",
+        "visible_text_length": 8
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/about-us-1",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/about-us-1",
+        "visible_text_length": 16
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/about-us~1c57504db1b341129be959e7e87afad8",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/about-us~1c57504db1b341129be959e7e87afad8",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/blog",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/blog",
+        "visible_text_length": 14
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/brad-lange-retires-after-decades-of-service-and-dedication",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/brad-lange-retires-after-decades-of-service-and-dedication",
+        "visible_text_length": 58
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/brown-county-interactive-map~3c5683870717486081bac07d2ab9dce8",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/brown-county-interactive-map~3c5683870717486081bac07d2ab9dce8",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/connect-with-us~2d04d8fb31f44b88b0179ca4b92d59ef",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/connect-with-us~2d04d8fb31f44b88b0179ca4b92d59ef",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/contact-us",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/contact-us",
+        "visible_text_length": 15
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/e48d8697bea24e2bb6f5de4bebd697eb",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/e48d8697bea24e2bb6f5de4bebd697eb",
+        "visible_text_length": 4
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/east-river-related-plans-studies-and-reports~437acd624a694520b93c7784d3cea92c",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/east-river-related-plans-studies-and-reports~437acd624a694520b93c7784d3cea92c",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/erc-plans-reports~8e5b1f9147c04b5d8ab99d67b9a87dbb",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/erc-plans-reports~8e5b1f9147c04b5d8ab99d67b9a87dbb",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/events~7713283e1e2b42ef9df283b9a01e5af5",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/events~7713283e1e2b42ef9df283b9a01e5af5",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/flood-study-maps~854c6300043243eb8626d8cfd1401770",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/flood-study-maps~854c6300043243eb8626d8cfd1401770",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/flood-vulnerability-index~fd01ed67e28d438a8fff84a636eab938",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/flood-vulnerability-index~fd01ed67e28d438a8fff84a636eab938",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/flooding-faq",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/flooding-faq",
+        "visible_text_length": 12
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/hagenow-coastal-resilience-specialist",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/hagenow-coastal-resilience-specialist",
+        "visible_text_length": 63
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/interactive-map~8def9b4423c64910a7f67c2de6a1c9cb",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/interactive-map~8def9b4423c64910a7f67c2de6a1c9cb",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/kari-hagenow-takes-on-new-role~f934c4f443874306b21cb4822b3c8a59",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/kari-hagenow-takes-on-new-role~f934c4f443874306b21cb4822b3c8a59",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/maps-data",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/maps-data",
+        "visible_text_length": 4
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/meet-melissa-schmitz~ebca297a926249f2ac02e7fe48272d4a",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/meet-melissa-schmitz~ebca297a926249f2ac02e7fe48272d4a",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/meetings-events",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/meetings-events",
+        "visible_text_length": 6
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/nature-based-solutions-resources~ca055818cc034c608abbbdaf2ff4a92a",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/nature-based-solutions-resources~ca055818cc034c608abbbdaf2ff4a92a",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/news-and-stories~157a3df1d14a4838a2694ca53f1da4bb",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/news-and-stories~157a3df1d14a4838a2694ca53f1da4bb",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/newsletter-archives",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/newsletter-archives",
+        "visible_text_length": 19
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/newsletter-archives~024dc7d9cfb146df8aac8c6d683651ca",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/newsletter-archives~024dc7d9cfb146df8aac8c6d683651ca",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/policy-resources~742df10ab8c54d2fbf138cfe2e18a5e6",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/policy-resources~742df10ab8c54d2fbf138cfe2e18a5e6",
+        "visible_text_length": 24
+      },
+      {
+        "error": null,
+        "final_url": "https://east-river-collaborative.tnc.org/pages/resources",
+        "hreflang_targets": [],
+        "html_lang": "en-us",
+        "internal_links": [],
+        "status_code": 200,
+        "url": "https://east-river-collaborative.tnc.org/pages/resources",
+        "visible_text_length": 9
+      }
+    ],
+    "registered_domain": "tnc.org",
+    "sitemap_urls": [
+      "https://east-river-collaborative.tnc.org/sitemap.xml",
+      "https://east-river-collaborative.tnc.org/sitemap_index.xml"
+    ],
+    "subdomains": [
+      "east-river-collaborative.tnc.org"
+    ]
+  },
+  {
+    "candidate_language_paths": [],
+    "counts": {
+      "candidate_language_paths": 0,
+      "fetch_errors": 3,
+      "hreflang_targets": 0,
+      "pages": 1,
+      "sitemaps": 2,
+      "subdomains": 1,
+      "urls": 1
+    },
+    "discovered_urls": [
+      "https://notion.so/"
+    ],
+    "domain": "notion.so",
+    "fetch_errors": [
+      "sitemap: https://notion.so/sitemap.xml: client_error: ClientResponseError",
+      "sitemap: https://notion.so/sitemap_index.xml: client_error: ClientResponseError",
+      "page: https://notion.so/: client_error: ClientResponseError"
+    ],
+    "hreflang_targets": [],
+    "normalized_start_url": "https://notion.so/",
+    "pages": [
+      {
+        "error": "client_error: ClientResponseError",
+        "final_url": null,
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": null,
+        "url": "https://notion.so/"
+      }
+    ],
+    "registered_domain": "notion.so",
+    "sitemap_urls": [
+      "https://notion.so/sitemap.xml",
+      "https://notion.so/sitemap_index.xml"
+    ],
+    "subdomains": [
+      "notion.so"
+    ]
+  },
+  {
+    "candidate_language_paths": [
+      "/es/"
+    ],
+    "counts": {
+      "candidate_language_paths": 1,
+      "fetch_errors": 0,
+      "hreflang_targets": 0,
+      "pages": 21,
+      "sitemaps": 18,
+      "subdomains": 2,
+      "urls": 22
+    },
+    "discovered_urls": [
+      "https://gymshark.com/",
+      "https://us.checkout.gymshark.com/agents.md",
+      "https://us.checkout.gymshark.com/blogs/australia",
+      "https://us.checkout.gymshark.com/blogs/canada",
+      "https://us.checkout.gymshark.com/blogs/dutch",
+      "https://us.checkout.gymshark.com/blogs/french",
+      "https://us.checkout.gymshark.com/blogs/german",
+      "https://us.checkout.gymshark.com/blogs/new-products",
+      "https://us.checkout.gymshark.com/blogs/restock-dates",
+      "https://us.checkout.gymshark.com/blogs/uk",
+      "https://us.checkout.gymshark.com/blogs/uk-hidden",
+      "https://us.checkout.gymshark.com/blogs/us-hidden",
+      "https://us.checkout.gymshark.com/es/blogs/australia",
+      "https://us.checkout.gymshark.com/es/blogs/canada",
+      "https://us.checkout.gymshark.com/es/blogs/dutch",
+      "https://us.checkout.gymshark.com/es/blogs/french",
+      "https://us.checkout.gymshark.com/es/blogs/german",
+      "https://us.checkout.gymshark.com/es/blogs/new-products",
+      "https://us.checkout.gymshark.com/es/blogs/restock-dates",
+      "https://us.checkout.gymshark.com/es/blogs/uk",
+      "https://us.checkout.gymshark.com/es/blogs/uk-hidden",
+      "https://us.checkout.gymshark.com/es/blogs/us-hidden"
+    ],
+    "domain": "gymshark.com",
+    "fetch_errors": [],
+    "hreflang_targets": [],
+    "normalized_start_url": "https://gymshark.com/",
+    "pages": [
+      {
+        "error": null,
+        "final_url": "https://gymshark.com/",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://gymshark.com/"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/australia",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/australia"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/canada",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/canada"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/dutch",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/dutch"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/french",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/french"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/german",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/german"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/new-products",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/new-products"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/restock-dates",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/restock-dates"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/uk",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/uk"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/uk-hidden",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/uk-hidden"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/blogs/us-hidden",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/blogs/us-hidden"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/australia",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/australia"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/canada",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/canada"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/dutch",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/dutch"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/french",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/french"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/german",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/german"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/new-products",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/new-products"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/restock-dates",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/restock-dates"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/uk",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/uk"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/uk-hidden",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/uk-hidden"
+      },
+      {
+        "error": null,
+        "final_url": "https://us.checkout.gymshark.com/es/blogs/us-hidden",
+        "hreflang_targets": [],
+        "html_lang": null,
+        "internal_links": [],
+        "status_code": 429,
+        "url": "https://us.checkout.gymshark.com/es/blogs/us-hidden"
+      }
+    ],
+    "registered_domain": "gymshark.com",
+    "sitemap_urls": [
+      "https://gymshark.com/sitemap.xml",
+      "https://gymshark.com/sitemap_index.xml",
+      "https://us.checkout.gymshark.com/es/sitemap_blogs_1.xml",
+      "https://us.checkout.gymshark.com/es/sitemap_collections_1.xml",
+      "https://us.checkout.gymshark.com/es/sitemap_pages_1.xml",
+      "https://us.checkout.gymshark.com/es/sitemap_products_1.xml",
+      "https://us.checkout.gymshark.com/es/sitemap_products_2.xml",
+      "https://us.checkout.gymshark.com/es/sitemap_products_3.xml",
+      "https://us.checkout.gymshark.com/es/sitemap_products_4.xml",
+      "https://us.checkout.gymshark.com/sitemap.xml",
+      "https://us.checkout.gymshark.com/sitemap_agentic_discovery.xml",
+      "https://us.checkout.gymshark.com/sitemap_blogs_1.xml",
+      "https://us.checkout.gymshark.com/sitemap_collections_1.xml",
+      "https://us.checkout.gymshark.com/sitemap_pages_1.xml",
+      "https://us.checkout.gymshark.com/sitemap_products_1.xml",
+      "https://us.checkout.gymshark.com/sitemap_products_2.xml",
+      "https://us.checkout.gymshark.com/sitemap_products_3.xml",
+      "https://us.checkout.gymshark.com/sitemap_products_4.xml"
+    ],
+    "subdomains": [
+      "gymshark.com",
+      "us.checkout.gymshark.com"
     ]
   }
 ]

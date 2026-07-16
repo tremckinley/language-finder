@@ -96,13 +96,15 @@ class LanguageFinding:
     code: str
     name: str
     confidence: int = 0
+    confidence_label: str | None = None
     sources: set[str] = field(default_factory=set)
     sample_urls: set[str] = field(default_factory=set)
     def to_dict(self) -> dict[str, Any]:
         return {
             "code": self.code,
             "name": self.name,
-            "confidence": self.confidence,
+            "confidence_percent": self.confidence,
+            "confidence_label": self.confidence_label,
             "sources": sorted(self.sources),
             "sample_urls": sorted(self.sample_urls)[:5],
         }
@@ -114,11 +116,13 @@ class LanguageReport:
     languages: list[str]
     findings: list[LanguageFinding]
     discovery_counts: dict[str, int]
+    warnings: list[dict] = field(default_factory=list)
     def to_dict(self) -> dict[str, Any]:
         return {
             "domain": self.domain,
             "language_count": self.language_count,
             "languages": self.languages,
             "findings": [f.to_dict() for f in self.findings],
+            "warnings": self.warnings,
             "discovery_counts": self.discovery_counts,
         }

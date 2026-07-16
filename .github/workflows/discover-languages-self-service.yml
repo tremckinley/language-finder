@@ -1,0 +1,121 @@
+name: Discover Published Languages - Self Service
+
+run-name: "Language Discovery by @${{ github.actor }} using ${{ inputs.source }}"
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Choose how domains are supplied"
+        required: true
+        type: choice
+        default: "paste_domains"
+        options:
+          - paste_domains
+          - repository_csv
+      domains:
+        description: "Paste domains here when source=paste_domains. Commas, spaces, or new lines are accepted."
+        required: false
+        type: string
+      csv_path:
+        description: "Repository CSV path when source=repository_csv"
+        required: false
+        type: string
+        default: "input_examples/domains.csv"
+      output_name:
+        description: "Artifact name"
+        required: false
+        type: string
+        default: "language-discovery-results"
+
+permissions:
+  contents: read
+
+env:
+  PYTHON_VERSION: "3.11"
+  OUTPUT_DIR: "output"
+  RUNTIME_INPUT_DIR: "input_runtime"
+
+jobs:
+  discover-languages:
+    name: Analyze domains
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Prepare domain input
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "${{ env.RUNTIME_INPUT_DIR }}"
+          RUNTIME_CSV="${{ env.RUNTIME_INPUT_DIR }}/domains.csv"
+          if [ "${{ inputs.source }}" = "repository_csv" ]; then
+            if [ ! -f "${{ inputs.csv_path }}" ]; then
+              echo "CSV path not found: ${{ inputs.csv_path }}" >&2
+              exit 1
+            fi
+            cp "${{ inputs.csv_path }}" "$RUNTIME_CSV"
+          else
+            if [ -z "${{ inputs.domains }}" ]; then
+              echo "No domains were provided. Paste domains or choose repository_csv." >&2
+              exit 1
+            fi
+            printf '%s\n' "${{ inputs.domains }}" \
+              | tr ', ' '\n' \
+              | sed '/^$/d' \
+              | awk 'BEGIN {print "domain"} {print $1}' \
+              > "$RUNTIME_CSV"
+          fi
+          echo "Domains queued for analysis:"
+          cat "$RUNTIME_CSV"
+
+      - name: Run language discovery
+        run: |
+          python main.py --input "${{ env.RUNTIME_INPUT_DIR }}/domains.csv" --output-dir "${{ env.OUTPUT_DIR }}"
+
+      - name: Build portfolio summary
+        run: |
+          python tools/build_summary.py \
+            --language-report "${{ env.OUTPUT_DIR }}/language_reports.csv" \
+            --summary-output "${{ env.OUTPUT_DIR }}/summary.csv" \
+            --markdown-output "${{ env.OUTPUT_DIR }}/summary.md"
+
+      - name: Package results
+        shell: bash
+        run: |
+          cd "${{ env.OUTPUT_DIR }}"
+          zip -r results.zip .
+
+      - name: Add run summary
+        shell: bash
+        run: |
+          echo "# Language Discovery Results" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "${{ env.OUTPUT_DIR }}/summary.md" ]; then
+            cat "${{ env.OUTPUT_DIR }}/summary.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "## CSV preview" >> "$GITHUB_STEP_SUMMARY"
+          echo '```csv' >> "$GITHUB_STEP_SUMMARY"
+          head -n 20 "${{ env.OUTPUT_DIR }}/language_reports.csv" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload result package
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.output_name }}
+          path: ${{ env.OUTPUT_DIR }}/results.zip
+          retention-days: 14
