@@ -86,7 +86,7 @@ jobs:
         run: |
           python main.py --input "${{ env.RUNTIME_INPUT_DIR }}/domains.csv" --output-dir "${{ env.OUTPUT_DIR }}"
 
-      - name: Build portfolio summary
+      - name: Build portfolio summary table
         run: |
           python tools/build_summary.py \
             --language-report "${{ env.OUTPUT_DIR }}/language_reports.csv" \
