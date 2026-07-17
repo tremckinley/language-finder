@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Language Discovery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Language Discovery</h1>
+      <p>Paste domains, run analysis, then review the latest results below.</p>
+    </header>
+
+    <section class="card">
+      <label for="domains">Domains</label>
+      <textarea id="domains" placeholder="gymshark.com&#10;example.ca&#10;nature.org"></textarea>
+      <div class="actions">
+        <button id="runButton">Run Analysis</button>
+        <button id="refreshButton" class="secondary">Refresh Results</button>
+      </div>
+      <p id="status" class="status">Ready.</p>
+      <p class="hint">Run Analysis opens the GitHub workflow. After the workflow completes, return here and select Refresh Results.</p>
+    </section>
+
+    <section id="runningPanel" class="card hidden">
+      <h2>Analysis Running</h2>
+      <p>Please keep this page open, or return after the GitHub workflow completes.</p>
+      <div class="bar"><div id="progressBar"></div></div>
+      <p id="progressText">Waiting for workflow results...</p>
+    </section>
+
+    <section id="resultsPanel" class="card hidden">
+      <div class="resultsHeader">
+        <h2>Results</h2>
+        <button id="downloadButton" class="secondary">Download summary.csv</button>
+      </div>
+
+      <div class="tableWrap">
+        <table>
+          <thead>
+            <tr>
+              <th class="domainCol">Domain Name</th>
+              <th class="countCol">Language Count</th>
+              <th class="languagesCol">Languages</th>
+              <th class="reviewCol">Review Recommended</th>
+            </tr>
+          </thead>
+          <tbody id="resultsBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
