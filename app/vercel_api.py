@@ -37,39 +37,42 @@ async def index() -> str:
 
 @app.post("/api/run", response_model=RunResponse)
 async def run(request: RunRequest) -> RunResponse:
-    job = create_job(request.domains)
-    domains = job.get("domains", [])
-    if not domains:
-        raise HTTPException(status_code=400, detail="Provide at least one domain.")
+    try:
+        job = create_job(request.domains)
+        domains = job.get("domains", [])
+        if not domains:
+            raise HTTPException(status_code=400, detail="Provide at least one domain.")
 
-    _, reports = await analyze_domains(domains)
-    report_payload = [r.to_dict() for r in reports]
-    rows = [
-        {
-            "Domain Name": report.get("domain", ""),
-            "Language Count": str(report.get("language_count", 0)),
-            "Languages": "; ".join(report.get("languages", [])),
-            "Review Recommended": "No" if report.get("language_count", 0) else "Yes",
-        }
-        for report in report_payload
-    ]
+        _, reports = await analyze_domains(domains)
+        report_payload = [r.to_dict() for r in reports]
+        rows = [
+            {
+                "Domain Name": report.get("domain", ""),
+                "Language Count": str(report.get("language_count", 0)),
+                "Languages": "; ".join(report.get("languages", [])),
+                "Review Recommended": "No" if report.get("language_count", 0) else "Yes",
+            }
+            for report in report_payload
+        ]
 
-    summary_json_path = OUTPUT_DIR / "summary.json"
-    summary_csv_path = OUTPUT_DIR / "summary.csv"
-    write_summary_json(summary_json_path, rows)
-    write_summary_csv(summary_csv_path, rows)
+        summary_json_path = OUTPUT_DIR / "summary.json"
+        summary_csv_path = OUTPUT_DIR / "summary.csv"
+        write_summary_json(summary_json_path, rows)
+        write_summary_csv(summary_csv_path, rows)
 
-    payload = [
-        {
-            "domain": row["Domain Name"],
-            "languageCount": int(row["Language Count"] or 0),
-            "languages": row["Languages"],
-            "reviewRecommended": row["Review Recommended"],
-        }
-        for row in rows
-    ]
-    get_job_result(job["jobId"], payload=payload, store_path=OUTPUT_DIR / "vercel_jobs.json")
-    return RunResponse(jobId=job["jobId"], status="completed")
+        payload = [
+            {
+                "domain": row["Domain Name"],
+                "languageCount": int(row["Language Count"] or 0),
+                "languages": row["Languages"],
+                "reviewRecommended": row["Review Recommended"],
+            }
+            for row in rows
+        ]
+        get_job_result(job["jobId"], payload=payload, store_path=OUTPUT_DIR / "vercel_jobs.json")
+        return RunResponse(jobId=job["jobId"], status="completed")
+    except Exception as exc:
+        return RunResponse(jobId="", status=f"error:{exc.__class__.__name__}")
 
 
 @app.get("/api/status/{job_id}")
