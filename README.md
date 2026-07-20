@@ -1,41 +1,37 @@
-# GitHub Pages Integration Patch
+# Language Finder Vercel Migration
 
-This patch completes the immediate next task:
+The repository now supports a Vercel-style job flow for self-service analysis while keeping the existing GitHub Actions workflow and summary generation intact.
 
-1. Generate `summary.json` from `language_reports.json`.
-2. Publish `summary.json` to `docs/data/summary.json`.
-3. Update the front-end so it loads latest results from `docs/data/summary.json`.
+## What changed
 
-## Files to copy into your repository
+- Added a lightweight job store bridge in [app/vercel_bridge.py](app/vercel_bridge.py) for queued runs and result persistence.
+- Added Vercel-ready API entry points in [api/run.py](api/run.py), [api/status.py](api/status.py), and [api/results.py](api/results.py).
+- Updated the browser UI in [web/app.js](web/app.js) to submit domains, poll job status, and display results without needing GitHub Pages.
+- Added [vercel.json](vercel.json) so the app can be served by Vercel with the new routes.
 
-```text
-docs/index.html
-docs/styles.css
-docs/app.js
-docs/data/summary.json
-tools/build_summary.py
-.github/workflows/discover-languages-self-service.yml
+## Local development
+
+Run the local FastAPI app with:
+
+```bash
+uvicorn app.vercel_api:app --reload
 ```
 
-## GitHub Pages setup
+Then open the browser at http://127.0.0.1:8000/.
 
-In your repository:
+## Vercel deployment notes
 
-1. Go to **Settings**.
-2. Go to **Pages**.
-3. Choose **Deploy from a branch**.
-4. Select branch `main`.
-5. Select folder `/docs`.
-6. Save.
+1. Connect the repository to Vercel.
+2. Ensure the project root is the repository root.
+3. Set the following environment variables in Vercel:
+   - `GITHUB_TOKEN` or `GH_TOKEN`
+   - `GITHUB_REPOSITORY`
+4. Deploy.
 
-## How the page works
+## API shape
 
-- The page loads `data/summary.json` when it opens.
-- The results table is populated from that JSON file.
-- The Run Analysis button opens the GitHub Actions workflow page.
-- After the workflow completes, the workflow commits a new `docs/data/summary.json`.
-- The user returns to the page and clicks **Refresh Results**.
+- POST /api/run with a JSON body like `{ "domains": ["example.org"] }`
+- GET /api/status/{jobId}
+- GET /api/results/{jobId}
 
-## Important security note
-
-This version does not store GitHub tokens in browser code. That is intentional.
+The job flow preserves the existing summary payload shape so the front end can consume the results immediately.
