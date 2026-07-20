@@ -2,12 +2,14 @@ from __future__ import annotations
 
 import json
 import os
+import tempfile
 import uuid
 from pathlib import Path
 from typing import Any
-from urllib import request, error
+from urllib import error, request
 
 DEFAULT_STORE_PATH = Path(__file__).resolve().parents[1] / "output" / "vercel_jobs.json"
+MEMORY_STORE: dict[str, dict[str, Any]] = {}
 
 
 def _normalize_domains(domains: Any) -> list[str]:
@@ -26,22 +28,54 @@ def _normalize_domains(domains: Any) -> list[str]:
     return list(dict.fromkeys(out))
 
 
+def _resolve_store_path(store_path: str | Path | None) -> Path:
+    if isinstance(store_path, Path):
+        return store_path
+    if isinstance(store_path, str):
+        return Path(store_path)
+
+    override = os.getenv("VERCEL_JOBS_STORE")
+    if override:
+        return Path(override)
+
+    candidate = DEFAULT_STORE_PATH
+    try:
+        candidate.parent.mkdir(parents=True, exist_ok=True)
+        with candidate.open("a", encoding="utf-8"):
+            pass
+    except OSError:
+        return Path(tempfile.gettempdir()) / "language_finder_vercel_jobs.json"
+    return candidate
+
+
 def _load_store(store_path: Path) -> dict[str, Any]:
+    key = str(store_path)
+    if key in MEMORY_STORE:
+        return MEMORY_STORE[key]
+
     if store_path.exists():
         try:
             data = json.loads(store_path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
-            return {"jobs": {}}
+            data = {"jobs": {}}
         if isinstance(data, dict):
             jobs = data.get("jobs", {})
             if isinstance(jobs, dict):
-                return {"jobs": jobs}
-    return {"jobs": {}}
+                MEMORY_STORE[key] = {"jobs": jobs}
+                return MEMORY_STORE[key]
+
+    MEMORY_STORE[key] = {"jobs": {}}
+    return MEMORY_STORE[key]
 
 
 def _write_store(store_path: Path, store: dict[str, Any]) -> None:
-    store_path.parent.mkdir(parents=True, exist_ok=True)
-    store_path.write_text(json.dumps(store, indent=2), encoding="utf-8")
+    try:
+        store_path.parent.mkdir(parents=True, exist_ok=True)
+        store_path.write_text(json.dumps(store, indent=2), encoding="utf-8")
+    except OSError:
+        pass
+
+    MEMORY_STORE[str(store_path)] = store
 
 
 def trigger_github_workflow(domains: list[str], job_id: str) -> None:
@@ -76,7 +110,7 @@ def trigger_github_workflow(domains: list[str], job_id: str) -> None:
 
 
 def create_job(domains: Any, *, store_path: str | Path | None = None) -> dict[str, Any]:
-    path = Path(store_path or DEFAULT_STORE_PATH)
+    path = _resolve_store_path(store_path)
     store = _load_store(path)
     normalized = _normalize_domains(domains)
     job_id = str(uuid.uuid4())[:8]
@@ -96,7 +130,7 @@ def create_job(domains: Any, *, store_path: str | Path | None = None) -> dict[st
 
 
 def get_job_status(job_id: str, *, store_path: str | Path | None = None) -> dict[str, Any]:
-    path = Path(store_path or DEFAULT_STORE_PATH)
+    path = _resolve_store_path(store_path)
     store = _load_store(path)
     job = store["jobs"].get(job_id)
     if job is None:
@@ -110,7 +144,7 @@ def get_job_status(job_id: str, *, store_path: str | Path | None = None) -> dict
 
 
 def get_job_result(job_id: str, *, payload: Any = None, store_path: str | Path | None = None) -> dict[str, Any]:
-    path = Path(store_path or DEFAULT_STORE_PATH)
+    path = _resolve_store_path(store_path)
     store = _load_store(path)
     job = store["jobs"].get(job_id)
     if job is None:
